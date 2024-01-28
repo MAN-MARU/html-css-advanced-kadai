@@ -1,0 +1,99 @@
+/* PC スマホ共通スタイル */
+body {
+    font-family: "Noto Sans JP", Meiryo, Arial, sans-serif;
+}
+h1, h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: center;
+}
+header > h1 {
+    border: solid 1px #000;
+    text-align: center;
+    padding: 11px 28px 12px 29px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 132px;
+}
+/* ナビゲーションのレイアウト */
+#nav-pc {
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+/* ナビゲーションのリンクの装飾設定} */
+#nav-pc > a {
+    margin-right: 35px;
+}
+#nav-pc > a:link {
+    color: #000;
+    text-decoration: none;
+}
+#nav-pc > a:visited {
+    color: #000;
+    text-decoration: none;
+}
+#nav-pc > a:hover {
+    color: #000;
+    text-decoration: none;
+}
+#nav-pc > a:active {
+    color: #000;
+    text-decoration: none;
+}
+/* メインビジュアル */
+#camera {
+    height: 400px;
+    width: 100%;
+}
+#mainvisual1 > h2{
+    text-align: center;
+}
+#about {
+    display: flex;
+}
+#about > img {
+    border-radius: 50%;
+    width: 141px;
+    height: 142px;
+}
+#kazukiasahina {
+    text-align: left;
+}
+h3 {
+    font-size: 24px;
+}
+ul {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Works */
+#mainvisual2 > h2 {
+    text-align: center;
+}
+#works {
+    display: flex;
+}
+
+.picture > img {
+    width: 179px;
+    height: 134px;
+    margin-right: 18px; 
+}
+.picture > p {
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    font-size: 18px;
+}
